@@ -1,12 +1,11 @@
-<% content_for :meta_title, "Bienvenue sur le site d'Homo Flumen Mag" %>
-<% content_for :navbar_class, 'navbar-home' %>
+<% content_for :meta_title, "Homo Flumen Magasine" %>
 
 
 <div class="homepage-banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('http://res.cloudinary.com/poloduf/image/upload/v1516717478/hompage_banner_bkvgrb.jpg');">
   <div class="banner-content">
     <h1>Homo Flumen Mag</h1>
     <p>"La rivière est notre culture"</p>
-    <a href="" class="btn btn-primary btn-lg">Entrer</a>
+<!--     <a href="" class="btn btn-primary btn-lg">Entrer</a> -->
+    <%= link_to 'Accéder au catalogue', sommaire_path, class: "btn btn-primary btn-lg" %>
   </div>
 </div>
-
